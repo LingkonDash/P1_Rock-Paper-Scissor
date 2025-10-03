@@ -11,6 +11,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     background: darkgray;
+    text-align: center;
 }
 h1 {
     font-size: 1.8rem;
@@ -33,4 +34,20 @@ h1 {
 }
 #computerWin {
     color: #FF0000;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: #333;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    font-size: 0.9rem;
+    font-weight: small;
 }
